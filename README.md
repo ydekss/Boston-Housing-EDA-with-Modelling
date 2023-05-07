@@ -70,9 +70,14 @@ The data has following features, medv being the target (dependent) variable:
 - The variables that have the strongest positive correlation with the median value of homes are the average number of rooms per dwelling and the proportion of residential land zoned for lots over 25,000 square feet.
 - The crime rate per capita variable has a skewed distribution, with a few suburbs having a very high crime rate compared to others.
 - The Charles River dummy variable (which indicates whether a suburb borders the river or not) has a significant impact on the median value of homes, with suburbs that border the river tending to have higher median home values.
+- There are both positive and negative correlation with the response varaible. Crim, indus, nox, age, rad, tax, ptratio, lstat all of them have a negative correlation with the lstat one having the strongest correlation. While, zn, chas, rm, dis and black have a positive correlation with rm having the strongest positive correlation. rad and tax have a strong positive correlation of 0.91 which implies that as accessibility of radial highways increases, the full value property-tax rate per $10,000 also increases. indus has a strong positive correlation with nox indicating that the concentration of nitrogen oxides are very high in industrial areas.
+- We can see a strong positive correlation between distance of 5 employment center from town and price. The closer/farther the employment center from town the more/less the housing prices.
+- We can see a strong negative correlation between NOX concentration in air and price. The more/less concentration of NOX is in air the less/more the housing prices.
 
-## Modelling
-I have also fitted a Linear Regression model which predicts the price of the house, feel free to look at the `ipnyb` file to explore more.
+
+## Multiple Linear Regression
+![Linear_regression_intro.gif](https://github.com/Infinity1008/Concept_explainers/blob/main/Regression/Linear_regression/animated_gifs/Linear_regression_intro.gif?raw=true)
+I have also fitted a Multiple Linear Regression model which predicts the price of the house, feel free to look at the `ipnyb` file to explore more.
 
 ![22 Ways to Say Thank You in Chinese That Suit Any Situation](https://i0.wp.com/www.writtenchinese.com/wp-content/uploads/2016/12/22-Ways-to-Say-Thank-You-in-Chinese-That-Suit-Any-Situation.png?resize=800%2C350&ssl=1)
 
