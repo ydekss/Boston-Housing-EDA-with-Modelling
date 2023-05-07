@@ -9,7 +9,7 @@ In this project I have taken the most famous Boston Housing Dataset and tried to
   
   
 
-# Exploratory Data Analysis and Multiple Linear Regression on Boston Housing Dataset
+## Exploratory Data Analysis and Multiple Linear Regression on Boston Housing Dataset
 
 This dataset contains information about 506 census tracts of Boston from the 1970 census. As an aspiring data scientist, understanding how to model data like this is of great importance to me. In this kernel, I will use the Boston housing data by Harrison and Rubinfeld (1979) and explore which factors affect the median value of homes. I will perform a linear regression analysis on the same.
 
